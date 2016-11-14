@@ -1,10 +1,21 @@
 {
   "name": "bgzf",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "inflate BGZF format(sync)",
   "main": "index.js",
   "homepage": "http://github.com/shinout/bgzf",
   "author": "Shin Suzuki<shinout310@gmail.com>",
+  "contributors": [
+      {
+	  "name": "Shin Suzuki",
+	  "email": "shinout310@gmail.com"
+      },
+      {
+	  "name": "Matthew Ralston",
+	  "email": "mrals89@gmail.com",
+	  "url": "http://MatthewRalston.github.io"
+      }
+  ],
   "gypfile": true,
   "keywords": [
     "bgzf",
@@ -21,7 +32,7 @@
     "node": ">= 0.8.0"
   },
   "dependencies": {
-    "nan": "*"
+    "nan": "^2.0.x"
   },
   "devDependencies": {
     "coffee-script": ">= 1.7.1",
