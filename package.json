@@ -1,6 +1,6 @@
 {
   "name": "ve-bgzf",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "inflate BGZF format(sync)",
   "main": "index.js",
   "homepage": "http://github.com/teselagen/bgzf",
@@ -34,7 +34,6 @@
     "deflate",
     "synchronous"
   ],
-
   "engines": {
     "node": ">= 0.8.0"
   },
