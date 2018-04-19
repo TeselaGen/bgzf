@@ -1,3 +1,5 @@
+Note code taken from Shin Suzuki's bgzf package. All credit to him. 
+
 BGZF
 ==================
 inflates BGZF written in C++
@@ -11,7 +13,7 @@ $ npm install bgzf
 usage
 -----------
 ```js
-var bgzf = require("bgzf");
+var bgzf = require("ve-bgzf");
 var bam = require("fs").readFileSync("/path/to/bamfile.bam");
 var result = bgzf.inflate(bam);
 var inflated = result[0]; // inflated buffer

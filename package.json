@@ -1,20 +1,27 @@
 {
-  "name": "bgzf",
+  "name": "ve-bgzf",
   "version": "0.0.1",
   "description": "inflate BGZF format(sync)",
   "main": "index.js",
-  "homepage": "http://github.com/shinout/bgzf",
-  "author": "Shin Suzuki<shinout310@gmail.com>",
+  "homepage": "http://github.com/teselagen/bgzf",
+  "author": "Teselagen <team@teselagen.com>",
+  "scripts": {
+    "test": "node test/test.js"
+  },
   "contributors": [
-      {
-	  "name": "Shin Suzuki",
-	  "email": "shinout310@gmail.com"
-      },
-      {
-	  "name": "Matthew Ralston",
-	  "email": "mrals89@gmail.com",
-	  "url": "http://MatthewRalston.github.io"
-      }
+    {
+      "name": "Shin Suzuki",
+      "email": "shinout310@gmail.com"
+    },
+    {
+      "name": "Thomas Rich",
+      "email": "trich1230@gmail.com"
+    },
+    {
+      "name": "Matthew Ralston",
+      "email": "mrals89@gmail.com",
+      "url": "http://MatthewRalston.github.io"
+    }
   ],
   "gypfile": true,
   "keywords": [
@@ -34,23 +41,17 @@
   "dependencies": {
     "nan": "^2.0.x"
   },
-  "devDependencies": {
-    "coffee-script": ">= 1.7.1",
-    "grunt": "^0.4.4",
-    "grunt-contrib-coffee": "^0.10.1",
-    "grunt-shell": "^0.7.0"
-  },
   "repository": {
     "type": "git",
-    "url": "http://github.com/shinout/bgzf"
+    "url": "http://github.com/teselagen/bgzf"
   },
   "bugs": {
-    "url": "http://github.com/shinout/bgzf/issues"
+    "url": "http://github.com/teselagen/bgzf/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/shinout/bgzf/blob/master/MIT-LICENSE"
+      "url": "http://github.com/teselagen/bgzf/blob/master/MIT-LICENSE"
     }
   ]
 }
